@@ -1,4 +1,7 @@
-
-.list {
-    
-}/* koment */
+/* sbros stilej */
+.list, .mail-tel { 
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
