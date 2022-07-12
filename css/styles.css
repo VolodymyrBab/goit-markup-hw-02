@@ -93,23 +93,7 @@ color: #2196F3;
 background-color:#188CE8;
 color: #FFFFFF
 } 
-.portfolio-button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    /* identical to box height, or 162% */
 
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    background: #F5F4FA;
-    color: #212121;
-}
-.portfolio-button:focus,
-.portfolio-button:hover {
-color: #FFFFFF;
-background: #2196F3
-}
 
 .section2-h3 {
   
@@ -199,3 +183,25 @@ background: #2196F3
 .adres-tel:focus {
     color: #2196F3;
 }
+
+/* portfolio */
+
+.portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background: #F5F4FA;
+    color: #212121;
+}
+
+.portfolio-button:focus,
+.portfolio-button:hover {
+    color: #FFFFFF;
+    background: #2196F3
+}
+
