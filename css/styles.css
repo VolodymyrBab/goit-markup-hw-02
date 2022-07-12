@@ -6,6 +6,11 @@
     text-decoration: none;
 }
 /* stili shriftov */
+body {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        color: #000000;
+}
 .link-logo {
     font-family: 'Raleway', sans-serif;
         font-weight: 700;
@@ -29,7 +34,7 @@
         color: #000000;
 }
 .menu-link {
-    font-family: 'Roboto', sans-serif;
+    
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -42,7 +47,7 @@
     color: #2196F3;
 }
 .mail-link, .tel-link {
-    font-family: 'Roboto', sans-serif;
+    
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -56,7 +61,7 @@
 color: #2196F3;
 }
 .section1-text {
-    font-family: 'Roboto', sans-serif;
+    
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -70,7 +75,7 @@ color: #2196F3;
   
 }
 .section1-button {
-    font-family: 'Roboto', sans-serif;
+   
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -84,11 +89,12 @@ color: #2196F3;
         /* color: #FFFFFF;*/
 }
 .section1-button:hover, .section1-button:focus {
-
+background-color:#2196F3;
+color: white
+} ;
 }
 .section2-h3 {
-    font-family: 'Roboto', sans-serif;
-   
+  
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -98,7 +104,7 @@ color: #2196F3;
     color: #212121;
 }
 .section2-p {
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -109,7 +115,7 @@ color: #2196F3;
     color: #757575;
 }
 .section3-text, .section4-text {
-    font-family: 'Roboto', sans-serif;       
+           
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -119,7 +125,7 @@ color: #2196F3;
         color: #212121;
 }
 .section4-naime {
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -131,7 +137,7 @@ color: #2196F3;
     color: #212121;
 }
 .section4-p {
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -144,7 +150,7 @@ color: #2196F3;
 }
  
 .adres-link {
-    font-family: 'Roboto', sans-serif;
+   
     font-style: normal;
     font-weight: 400;
         font-size: 14px;
@@ -156,7 +162,7 @@ color: #2196F3;
         /* color: #FFFFFF; */
 }
 .adres-mail, .adres-tel {
-font-family: 'Roboto', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -166,4 +172,12 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 
     /* color: rgba(255, 255, 255, 0.6); */
+}
+.adres-link:hover,
+.adres-link:focus,
+.adres-mail:hover,
+.adres-tel:hover,
+.adres-mail:focus,
+.adres-tel:focus {
+    color: #2196F3;
 }
