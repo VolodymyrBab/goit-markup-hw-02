@@ -85,12 +85,12 @@ color: #2196F3;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
-    
-        /* color: #FFFFFF;*/
+         background-color: #2196F3;
+         color: #FFFFFF;
 }
 .section1-button:hover, .section1-button:focus {
-background-color:#2196F3;
-color: white
+background-color:#188CE8;
+color: #FFFFFF
 } ;
 }
 .section2-h3 {
